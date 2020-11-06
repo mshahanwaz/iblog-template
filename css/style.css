@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  margin-top: 25px;
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}
+.nav-left span {
+  font-size: 32px;
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 14px;
+  font-size: 21px;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+  transition: all 0.15s ease-in-out;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  transition: all 0.15s ease-in-out;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  position: relative;
+}
+.content::after {
+  content: "";
+  background-image: url("../img/11.svg");
+  /* background-color: rgb(83, 82, 72); */
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.4;
+  border-radius: 10px;
+  z-index: -1;
+}
+.content-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: var(--font1);
+  padding: 49px;
+  /* width: 50%; */
+}
+.content-right {
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+.content-right img {
+  height: 190px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.home-articles {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  background-color: rgb(247, 228, 228);
+  position: relative;
+}
+.year-box {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  /* background-color: red; */
+  right: 20px;
+  top: 20px;
+  font-size: 12px;
+}
+.home-article {
+  display: flex;
+  margin: 25px;
+  /* align-items: center; */
+}
+.home-article img {
+  width: 300px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+}
+.home-article-content a {
+  text-decoration: none;
+  color: black;
+}
+/* .home-articles {} */
+
+.footer {
+  font-family: var(--font1);
+  height: 60px;
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.footer a {
+  color: rgb(255, 255, 255);
+}
