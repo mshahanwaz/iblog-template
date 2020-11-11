@@ -1,4 +1,4 @@
-Simple blog template made using HTML & CSS.
+Simple, Decent & Impressive blog template made using HTML & CSS.
 
 ### Screen Shots
 ![1](https://github.com/mshahanwaz/iblog-template/blob/master/ss/1.jpg)
